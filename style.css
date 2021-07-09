@@ -1,0 +1,109 @@
+
+
+:root{
+  /*FONTS*/
+--font-300: 300 1.7rem 'Inter', sans-serif;
+--font-500: 500 2rem 'Inter', sans-serif;
+--font-700: 700 1.7rem 'Inter', sans-serif;
+  /*COOLRS*/
+--dark-blue-color: hsl(240, 38%, 20%);
+--grayish-blue-color: hsl(240, 18%, 77%);
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  padding: 2rem;
+}
+
+/*===IMAGE-USER==*/
+
+#imge-user{
+}
+
+img.bg{
+  position: absolute;
+  width: auto;
+  height: 31rem;
+}
+
+img.user{
+  position: relative;
+  border-radius: 0.5rem;
+  left: 3.8rem;
+  top: 3rem;
+  width: auto;
+  height: 25.4rem;
+
+  box-shadow: -0.1em 3rem 5rem -2.5rem #777;
+}
+
+
+/*===TESTIMONIAL==*/
+
+#testimonial{
+  margin-left: 2rem;
+  margin-top: 8.5rem;
+  width: 30rem;
+  height: auto;
+  text-align: center;
+}
+
+.quota{
+
+}
+
+p{
+  margin-top: -2rem;
+  font: var(--font-300);
+  color:var(--dark-blue-color);
+}
+
+h3{
+  margin-top: 2rem;
+  color: var(--dark-blue-color);
+  font: var(--font-700);
+}
+
+span{
+  color: var(--grayish-blue-color);
+
+}
+
+#curve{
+  margin-left: -3rem;
+  margin-bottom: -4rem;
+}
+
+/*===BUTTONS==*/
+
+button{
+  background: none;
+  border: none;
+}
+
+#tania-btn{
+  margin-right: 3rem;
+}
+
+#bg-btn{
+  width: 7rem;
+  height: 3.5rem;
+  border-radius: 2rem;
+  background-color:white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  bottom: 30.5rem;
+  left: 12.5rem;
+
+}
