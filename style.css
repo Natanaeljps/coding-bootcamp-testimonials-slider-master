@@ -2,9 +2,9 @@
 
 :root{
   /*FONTS*/
---font-300: 300 1.7rem 'Inter', sans-serif;
+--font-300: 300 1.1rem 'Inter', sans-serif;
 --font-500: 500 2rem 'Inter', sans-serif;
---font-700: 700 1.7rem 'Inter', sans-serif;
+--font-700: 700 1rem 'Inter', sans-serif;
   /*COOLRS*/
 --dark-blue-color: hsl(240, 38%, 20%);
 --grayish-blue-color: hsl(240, 18%, 77%);
@@ -17,29 +17,28 @@
   box-sizing: border-box;
 }
 
-
 body{
-  padding: 2rem;
+  text-align: center;
 }
 
 /*===IMAGE-USER==*/
 
-#imge-user{
-}
 
 img.bg{
   position: absolute;
   width: auto;
-  height: 31rem;
+  height: 19rem;
+
+  left:1.6rem;
 }
 
 img.user{
   position: relative;
   border-radius: 0.5rem;
-  left: 3.8rem;
-  top: 3rem;
+  left: 0.4rem;
+  top: 1.8rem;
   width: auto;
-  height: 25.4rem;
+  height: 15.6rem;
 
   box-shadow: -0.1em 3rem 5rem -2.5rem #777;
 }
@@ -49,36 +48,41 @@ img.user{
 
 #testimonial{
   margin-left: 2rem;
-  margin-top: 8.5rem;
-  width: 30rem;
+  margin-right: 2rem;
+  margin-top: 5rem;
   height: auto;
   text-align: center;
+  align-content: center;
 }
 
 .quota{
-
+  width: auto;
+  height: 3.5rem;
+  position: absolute;
+  left: 9.9rem;
 }
 
-p{
-  margin-top: -2rem;
+#testimonial p{
+  top: 2rem;
+  position: relative;
   font: var(--font-300);
   color:var(--dark-blue-color);
 }
 
 h3{
-  margin-top: 2rem;
+  margin-top: 3.5rem;
   color: var(--dark-blue-color);
   font: var(--font-700);
 }
 
 span{
   color: var(--grayish-blue-color);
-
 }
 
 #curve{
-  margin-left: -3rem;
-  margin-bottom: -4rem;
+  width: auto;
+  height: auto;
+  overflow-x: hidden;
 }
 
 /*===BUTTONS==*/
@@ -86,24 +90,35 @@ span{
 button{
   background: none;
   border: none;
+  padding-top: .18rem;
 }
 
-#tania-btn{
-  margin-right: 3rem;
+
+#tanya-btn{
+  margin-right: 1.8rem;
 }
 
-#bg-btn{
-  width: 7rem;
-  height: 3.5rem;
+.bg-btn img{
+  height: 0.8rem;
+}
+
+.bg-btn{
+  margin-top: 16.12rem;
+  margin-left: 9.7rem;
+  padding: 0.5rem;
+  background: cornsilk;
   border-radius: 2rem;
-  background-color:white;
 
   display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
+  position: absolute;
+  z-index: 100;
+}
 
-  bottom: 30.5rem;
-  left: 12.5rem;
 
+#tania, #john{
+  margin-top: 2rem;
+}
+
+.hide{
+  display: none;
 }
